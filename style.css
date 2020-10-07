@@ -1,0 +1,59 @@
+        body {
+            font-family: 'Courier New', Courier, monospace;
+        }
+        
+        .g-board__row {
+            display: flex;
+            justify-content: space-between;
+        }
+        
+        .g-board__cell {
+            width: 65px;
+            height: 65px;
+            border: 2px dashed #cccccc;
+            border-radius: 12px;
+            margin: 10px 0;
+        }
+        
+        .g-board__row__sum {
+            height: 65px;
+            display: flex;
+            align-items: center;
+            margin: 10px 0;
+            color: #999999;
+            font-weight: 600;
+            min-width: 30px;
+        }
+        
+        .g-board__col__sum {
+            text-align: center;
+            width: 67px;
+            font-weight: 600;
+            color: #999999;
+        }
+        
+        .g-board__empty_cell {
+            min-width: 30px;
+        }
+        
+        #g-cards {
+            display: flex;
+            justify-content: space-between;
+            margin-top: 40px;
+        }
+        
+        .g-card-pad {
+            width: 52px;
+            height: 52px;
+            /* border: 2px dashed #666666; */
+            border-radius: 12px;
+        }
+        
+        .g-card {
+            width: 50px;
+            border: 1px solid #999999;
+            border-radius: 10px;
+            padding: 16px 0;
+            cursor: grab;
+            background-color: bisque;
+        }
